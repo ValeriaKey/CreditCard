@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14179355118760" configfile="/JSFINBUILTVALIDATION/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="index" x="338" y="370" id="pf14179356243921" referenceLink="//@navigationRule.1/@navigationCase.0/@toViewId|" outlinks="pf14179526774900" inlinks="pf14179356243924" path="/index.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="*" x="122" y="370" id="pf14179356243927" outlinks="pf14179356243924" path="*"/>
+  <nodes xsi:type="pageflow:PFPage" name="success" x="122" y="754" id="pf14179379943589" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" path="/success.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="result" x="554" y="178" id="pf14179526774901" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf14179526774900" path="/result.jsp"/>
+  <links id="pf14179356243924" target="pf14179356243921" source="pf14179356243927" outcome="back"/>
+  <links id="pf14179526774900" target="pf14179526774901" source="pf14179356243921" outcome="submit"/>
+</pageflow:Pageflow>
